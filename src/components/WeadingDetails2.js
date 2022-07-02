@@ -10,8 +10,8 @@ const WeadingDetails = () => {
                 <div className="row">
                     <div className="col-sm-12">
                         <div className="heading">
-                            <span>We Love Each Other</span>
-                            <h2 className="title">Our Story</h2>
+                            <span>Un poco de...</span>
+                            <h2 className="title">Nuestra Historia</h2>
                             <p>To love a person is to see all of their magic, and to remind them of it when they have forgotten.</p>
                             <p>Ah, life grows lovely where you are.</p>
                             <span className="heading-bottom"><i className="icon icon-star"></i></span>
@@ -23,11 +23,11 @@ const WeadingDetails = () => {
                                 <div className="timeline-badge" style={{backgroundImage: `url(${img1})`}}></div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
-                                        <h3 className="timeline-title">First We Met</h3>
-                                        <span className="date">December 25, 2018</span>
+                                        <h3 className="timeline-title">Nos Conocimos</h3>
+                                        <span className="date">Enero 2018</span>
                                     </div>
                                     <div className="timeline-body">
-                                        <p>After four hours of long drive we met in her home with full of family members, fall in love with each other.</p>
+                                        <p>No tenemos una foto, pero lo recordamos muy bien. Nos conocimos en el trabajo, durante un almuerzo que ninguno tenia planeado</p>
                                     </div>
                                 </div>
                             </li>
@@ -35,11 +35,13 @@ const WeadingDetails = () => {
                                 <div className="timeline-badge" style={{backgroundImage: `url(${img2})`}}></div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
-                                        <h3 className="timeline-title">First Date</h3>
-                                        <span className="date"><i className="icon icon-date"></i>December 30, 2018</span>
+                                        <h3 className="timeline-title">Primera Fiesta</h3>
+                                        <span className="date"><i className="icon icon-date"></i>18 de Septiembre de 2018</span>
                                     </div>
-                                    <div className="timeline-body">
-                                        <p>Came to her home with excitement to meet her again. Our first date. She kisses my hand and I gave her red roses and chocolate.</p>
+                                    <div className="timeline-body" style={{ textAlign: 'left' }}>
+                                        <p>Mirko: Y.. Que musica te gusta?</p>
+                                        <p>Erika: Ah, la electronica</p>
+                                        <p>Mirko: Que coincidencia, yo soy Ing. Electronico, practicamente te gusto...</p>
                                     </div>
                                 </div>
                             </li>
@@ -47,15 +49,42 @@ const WeadingDetails = () => {
                                 <div className="timeline-badge" style={{backgroundImage: `url(${img3})`}}></div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
-                                        <h3 className="timeline-title">In A Relationship</h3>
-                                        <span className="date">May 16, 2019</span>
+                                        <h3 className="timeline-title">En una relacion</h3>
+                                        <span className="date">19 de Septiembre de 2018</span>
                                     </div>
                                     <div className="timeline-body">
-                                        <p>It's our engagement time. We started new relationship.</p>
+                                        <p>Despues de tomar un cafe, decidimos que queriamos estar juntos.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li className="timeline-inverted animate-box fadeInUp animated-fast">
+                                <div className="timeline-badge" style={{backgroundImage: `url(${img2})`}}></div>
+                                <div className="timeline-panel">
+                                    <div className="timeline-heading">
+                                        <h3 className="timeline-title">Nuestro Compromiso</h3>
+                                        <span className="date"><i className="icon icon-date"></i>18 de Octubre de 2021</span>
+                                    </div>
+                                    <div className="timeline-body">
+                                        <p>Me dijo que si!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li className="animate-box fadeInUp animated-fast">
+                                <div className="timeline-badge" style={{backgroundImage: `url(${img3})`}}></div>
+                                <div className="timeline-panel">
+                                    <div className="timeline-heading">
+                                        <h3 className="timeline-title">Nuestro Primer Viaje</h3>
+                                        <span className="date">24 de Diciembre de 2022</span>
+                                    </div>
+                                    <div className="timeline-body">
+                                        <p>Nos fuimos lejos!</p>
                                     </div>
                                 </div>
                             </li>
                         </ul>
+                    </div>
+                    <div className="col-md-12 col-md-offset-0">
+                        Y vamos por mas...
                     </div>
                 </div>
             </div>

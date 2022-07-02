@@ -7,7 +7,7 @@ const CountDown = () => {
     const [minutes, setMinutes] = useState(0);
     const [seconds, setSeconds] = useState(0);
     useEffect(() => {
-        const countDownDate = new Date("Dec 11, 2019 22:53:35").getTime();
+        const countDownDate = new Date("Sep 24, 2022 22:53:35").getTime();
         const x = setInterval(() => {
 
             // Get today's date and time
@@ -53,7 +53,7 @@ const CountDown = () => {
                 <div className="row">
                     <div className="col-sm-12">
                         <div className="heading">
-                            <h2 className="title">Don't miss it!</h2>
+                            <h2 className="title">Los Esperamos!</h2>
                             <span className="heading-bottom"><i className="color-white icon icon-star"></i></span>
                         </div>
                     </div>

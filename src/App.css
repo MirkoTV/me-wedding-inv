@@ -244,9 +244,9 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 	z-index: -1; background: rgba(0,0,0,.3); }
 	
 .remaining-time .time-sec{ position: relative; display: inline-block; margin: 0 20px; margin-bottom: 30px; 
-  height: 120px; width: 120px; padding-top: 25px; border-radius: 100px; border: 1px solid #F14E95;
+  height: 120px; width: 120px; padding-top: 25px; border-radius: 100px; border: 1px solid #ed97bd;
   color: #fff;
-  background: rgba(241, 78, 149, 0.8);
+	background: rgb(103, 173, 183, 0.8);
   
   animation: pulse 1s ease infinite; }
 

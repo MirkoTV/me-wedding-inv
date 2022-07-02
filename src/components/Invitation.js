@@ -10,8 +10,8 @@ const Invitation = () => {
                     <div className="col-sm-1"></div>
                     <div className="col-sm-10">
                         <div className="heading">
-                            <h2>Hello!</h2>
-                            <p>We invite you to be with us as we celebrate our new life together</p>
+                            <h2>Hola!</h2>
+                            <p>Estamos aqui para invitarte a celebrar nuestra nueva vida juntos</p>
                             <span className="heading-bottom"><i className="icon icon-star"></i></span>
                         </div>
 
@@ -19,12 +19,12 @@ const Invitation = () => {
                             <div className="couple-half">
                                 <div className="groom">
                                     <img src={groom} style={{backgroundImage: `url(${brideback})`, backgroundSize: 'cover',
-    backgroundRepeat: "no-repeat"}}  alt="groom" className="img-responsive" />
+    backgroundRepeat: "no-repeat", objectFit: "contain" }}  alt="groom" className="img-responsive" />
                                 </div>
                                 <div className="desc-groom">
-                                    <h3>Manoj Mukherjee</h3>
-                                    <h5>S/O Subal Mukherjee</h5>
-                                    <h5>Mamata Mukherjee</h5>
+                                    <h3>Mirko Terrazas</h3>
+                                    <h5>Gonzalo Terrazas</h5>
+                                    <h5>Aidee Vargas</h5>
                                 </div>
                             </div>
                             <p className="center-text heartp">
@@ -34,12 +34,12 @@ const Invitation = () => {
                             </p>
                             <div className="couple-half">
                                 <div className="bride">
-                                    <img src={bride} alt="bride" className="img-responsive" />
+                                    <img src={bride} alt="bride" style={{ backgroundImage: `url(${brideback})`,backgroundSize: 'cover', objectFit: "contain" }} className="img-responsive" />
                                 </div>
                                 <div className="desc-bride">
-                                    <h3>Iva Chatterjee</h3>
-                                    <h5>D/O Prabir Chatterjee</h5>
-                                    <h5>Iti Chatterjee</h5>
+                                    <h3>Erika Vargas</h3>
+                                    <h5>Edwin Vargas</h5>
+                                    <h5>Miriam Navarro</h5>
                                 </div>
                             </div>
                         </div>
