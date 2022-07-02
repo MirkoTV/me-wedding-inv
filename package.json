@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://2manoj1.github.io/weddinginvitation",
+  "homepage": "https://mirkotv.github.io/me-wedding-inv/",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@uiw/react-textarea-code-editor": "^2.0.2",
