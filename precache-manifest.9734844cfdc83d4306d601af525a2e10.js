@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2b4241d6faa9b015fc28a536697272f",
+    "revision": "dcb7dcbc1d89df91c4c45a04b28ecaf6",
     "url": "/me-wedding-inv/index.html"
   },
   {
-    "revision": "6d239a6f15dccda37cf0",
+    "revision": "2f6290179633ca340133",
     "url": "/me-wedding-inv/static/css/2.4ed7ca72.chunk.css"
   },
   {
-    "revision": "1f21f89c7a62ce4e093a",
-    "url": "/me-wedding-inv/static/css/main.f0afc3af.chunk.css"
+    "revision": "b7fead51f6fbbe4a5b27",
+    "url": "/me-wedding-inv/static/css/main.38453ec9.chunk.css"
   },
   {
-    "revision": "6d239a6f15dccda37cf0",
-    "url": "/me-wedding-inv/static/js/2.83253973.chunk.js"
+    "revision": "2f6290179633ca340133",
+    "url": "/me-wedding-inv/static/js/2.c2216cd7.chunk.js"
   },
   {
-    "revision": "1f21f89c7a62ce4e093a",
-    "url": "/me-wedding-inv/static/js/main.cbe0cd4f.chunk.js"
+    "revision": "b7fead51f6fbbe4a5b27",
+    "url": "/me-wedding-inv/static/js/main.4744b407.chunk.js"
   },
   {
     "revision": "e0ac8198cdddd64748ef",
@@ -26,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4fecfaadb34f86867d0c7ae5c25e315f",
     "url": "/me-wedding-inv/static/media/Background_Circle.4fecfaad.png"
-  },
-  {
-    "revision": "9b14f9e6765b6de220768a0df0fc9109",
-    "url": "/me-wedding-inv/static/media/a123.9b14f9e6.png"
   },
   {
     "revision": "8e648955fe15933644da07a2df19cdba",
