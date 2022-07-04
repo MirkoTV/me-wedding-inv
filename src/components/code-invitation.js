@@ -6,7 +6,7 @@ import 'prismjs/components/prism-ruby';
 import 'prismjs/themes/prism-okaidia.css'; //Example style, you can use another
 
 const CodeInvitation = () => {
-  const [code, setCode] = React.useState(
+  const [code] = React.useState(
     `
 require 'family'
 require 'friends'
@@ -18,7 +18,6 @@ TEMPLO_CALA_CALA_LOCATION = 'https://goo.gl/maps/Yh2VeDCihbYLkWdE8'
 SALON_LA_TERRAZA_LOCATION = 'https://goo.gl/maps/RdySP3MADXkjn9h28'
 
 class Wedding < ActiveEngagement::Base
-
   def invite
     puts <<-INVITE
         Mr & Mrs Terrazas and Mr & Mrs Vargas invite you to

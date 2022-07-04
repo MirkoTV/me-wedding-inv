@@ -5,6 +5,34 @@ body{ font-size: 16px; font-family: 'Bitter', serif; width: 100%; height: 100%; 
 	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; 
 	color: #333; }
 
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+	background: #1e1e1e !important;
+}
+
+.w-tc-editor code[class*='language-'] .token.function, .w-tc-editor pre[class*='language-'] .token.function {
+	color: #e9e8a7 !important;
+}
+
+.w-tc-editor code[class*='language-'] .token.builtin, .w-tc-editor pre[class*='language-'] .token.builtin, .w-tc-editor code[class*='language-'] .token.char, .w-tc-editor pre[class*='language-'] .token.char, .w-tc-editor code[class*='language-'] .token.inserted, .w-tc-editor pre[class*='language-'] .token.inserted, .w-tc-editor code[class*='language-'] .token.selector, .w-tc-editor pre[class*='language-'] .token.selector, .w-tc-editor code[class*='language-'] .token.string, .w-tc-editor pre[class*='language-'] .token.string {
+	color: #df9577 !important;
+}
+
+.w-tc-editor code[class*='language-'] .token.atrule, .w-tc-editor pre[class*='language-'] .token.atrule, .w-tc-editor code[class*='language-'] .token.property-access .token.method, .w-tc-editor pre[class*='language-'] .token.property-access .token.method, .w-tc-editor code[class*='language-'] .token.keyword, .w-tc-editor pre[class*='language-'] .token.keyword {
+	color: #569cd6 !important;
+}
+
+.w-tc-editor code[class*='language-'] .token.boolean, .w-tc-editor pre[class*='language-'] .token.boolean, .w-tc-editor code[class*='language-'] .token.constant, .w-tc-editor pre[class*='language-'] .token.constant, .w-tc-editor code[class*='language-'] .token.deleted, .w-tc-editor pre[class*='language-'] .token.deleted, .w-tc-editor code[class*='language-'] .token.number, .w-tc-editor pre[class*='language-'] .token.number, .w-tc-editor code[class*='language-'] .token.symbol, .w-tc-editor pre[class*='language-'] .token.symbol {
+	color: #bbbbbb !important;
+}
+
+.w-tc-editor code[class*='language-'] .token.selector .class, .w-tc-editor pre[class*='language-'] .token.selector .class, .w-tc-editor code[class*='language-'] .token.class-name, .w-tc-editor pre[class*='language-'] .token.class-name {
+	color: #4ec9b0 !important;
+}
+
+.w-tc-editor code[class*='language-'] .style .token.string, .w-tc-editor pre[class*='language-'] .style .token.string, .w-tc-editor code[class*='language-'] .token.entity, .w-tc-editor pre[class*='language-'] .token.entity, .w-tc-editor code[class*='language-'] .token.property, .w-tc-editor pre[class*='language-'] .token.property, .w-tc-editor code[class*='language-'] .token.operator, .w-tc-editor pre[class*='language-'] .token.operator, .w-tc-editor code[class*='language-'] .token.url, .w-tc-editor pre[class*='language-'] .token.url {
+	color: #ffffff !important;
+}
+
 h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
 
 h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
