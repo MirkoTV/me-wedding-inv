@@ -40,8 +40,8 @@ function App() {
             textColor="primary"
             variant='fullWidth'
           >
-            <Tab label="Soy una persona Normal" />
-            <Tab label="Soy un programador" />
+            <Tab label="Soy Normal" />
+            <Tab label="Soy Programador" />
           </Tabs>
         </Paper>
         <div hidden={invitationTab !== 0}>

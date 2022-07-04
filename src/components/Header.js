@@ -2,16 +2,17 @@ import React from 'react';
 import logoimg from '../images/logo-white.png';
 import bibahlogo from '../images/a123.png';
 const Header = () => {
-		return (
-			<header>
+	return (
+		<header>
 
-				<div className="container">
+			<div className="container">
 
-					<a className="logo" href="#"><img src={bibahlogo} alt="Logo" /></a>
+				<h3 style={{ textAlign: 'center', marginLeft: '40px' }}>M &#x26; E</h3>
 
-				</div>
-			</header>
-		);
+			</div>
+
+		</header>
+	);
 }
 
 export default Header;

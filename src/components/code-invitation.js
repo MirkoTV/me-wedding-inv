@@ -62,17 +62,20 @@ end
   `
   );
 
-  return <CodeEditor
-    value={code}
-    language="ruby"
-    placeholder="Please enter JS code."
-    padding={20}
-    style={{
-      fontSize: 20,
-      backgroundColor: "#f5f5f5",
-      fontFamily: 'ui-monospace,SFMono-Regular,SF Mono,Consolas,Liberation Mono,Menlo,monospace',
-    }}
-  />
+  return <div>
+    <CodeEditor
+      value={code}
+      language="ruby"
+      placeholder="Please enter JS code."
+      padding={20}
+      style={{
+        position: 'initial',
+        fontSize: 20,
+        backgroundColor: "#f5f5f5",
+        fontFamily: 'ui-monospace,SFMono-Regular,SF Mono,Consolas,Liberation Mono,Menlo,monospace',
+      }}
+    />
+  </div>
 }
 
 export default CodeInvitation;
