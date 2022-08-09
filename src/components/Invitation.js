@@ -1,6 +1,6 @@
 import React from 'react';
 import groom from '../images/manoj1.png';
-import bride from '../images/mana2.jpg';
+import bride from '../images/eri.JPG';
 import brideback from '../images/brideback.jpg';
 const Invitation = () => {
     return (
