@@ -58,15 +58,14 @@ const Weadingloaction = () => {
               <p>Sabado, 24 de Septiembre de 2022.</p>
 						</div> 
 
-						<div className="w-detail right">
+						{/* <div className="w-detail right">
 							<i className="icon icon-ciurclke"></i>
 							<h4 className="title">RECEPCION EN NUESTRO HOGAR</h4>
 							<p>4:00 pm</p>
 							<p>Domingo, 25 de Septiembre de 2022.</p>
 							<p>
 							</p>
-
-						</div> 
+                         </div> */}
 						
 					</div>
 					

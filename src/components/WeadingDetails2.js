@@ -1,8 +1,10 @@
 import React from 'react';
 import '../OurStory.css';
-import img3 from '../images/met5.jpg'
-import img2 from '../images/met3.jpg'
-import img1 from '../images/met4.jpg'
+import img5 from '../images/firstTrip.jpg'
+import img4 from '../images/engagement.jpg'
+import img3 from '../images/firstDate.JPG'
+import img2 from '../images/firstParty.JPG'
+import img1 from '../images/party.jpeg'
 const WeadingDetails = () => {
     return (
         <section className="section w-details-area center-text">
@@ -36,7 +38,7 @@ const WeadingDetails = () => {
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
                                         <h3 className="timeline-title">Primera Fiesta</h3>
-                                        <span className="date"><i className="icon icon-date"></i>18 de Septiembre de 2018</span>
+                                        <span className="date"><i className="icon icon-date"></i>18 de Febrero de 2018</span>
                                     </div>
                                     <div className="timeline-body" style={{ textAlign: 'left' }}>
                                         <p>Mirko: Y.. Que musica te gusta?</p>
@@ -50,7 +52,7 @@ const WeadingDetails = () => {
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
                                         <h3 className="timeline-title">En una relacion</h3>
-                                        <span className="date">19 de Septiembre de 2018</span>
+                                        <span className="date">19 de Febrero de 2018</span>
                                     </div>
                                     <div className="timeline-body">
                                         <p>Despues de tomar un cafe, decidimos que queriamos estar juntos.</p>
@@ -58,11 +60,11 @@ const WeadingDetails = () => {
                                 </div>
                             </li>
                             <li className="timeline-inverted animate-box fadeInUp animated-fast">
-                                <div className="timeline-badge" style={{backgroundImage: `url(${img2})`}}></div>
+                                <div className="timeline-badge" style={{backgroundImage: `url(${img4})`}}></div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
                                         <h3 className="timeline-title">Nuestro Compromiso</h3>
-                                        <span className="date"><i className="icon icon-date"></i>18 de Octubre de 2021</span>
+                                        <span className="date"><i className="icon icon-date"></i>25 de Octubre de 2021</span>
                                     </div>
                                     <div className="timeline-body">
                                         <p>Me dijo que si!</p>
@@ -70,7 +72,7 @@ const WeadingDetails = () => {
                                 </div>
                             </li>
                             <li className="animate-box fadeInUp animated-fast">
-                                <div className="timeline-badge" style={{backgroundImage: `url(${img3})`}}></div>
+                                <div className="timeline-badge" style={{backgroundImage: `url(${img5})`}}></div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
                                         <h3 className="timeline-title">Nuestro Primer Viaje</h3>
