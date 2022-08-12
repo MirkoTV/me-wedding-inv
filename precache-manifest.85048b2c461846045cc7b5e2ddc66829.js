@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0dae3e179889e0e6a8589e09c6e8bfbc",
+    "revision": "169684b982b7b114b4bdaafde0b4b087",
     "url": "/me-wedding-inv/index.html"
   },
   {
-    "revision": "2f6290179633ca340133",
+    "revision": "05f85c918395a6ce4907",
     "url": "/me-wedding-inv/static/css/2.4ed7ca72.chunk.css"
   },
   {
-    "revision": "226d4a3b9485ab4917ce",
-    "url": "/me-wedding-inv/static/css/main.16f935a0.chunk.css"
+    "revision": "1e698a7a8515864c87b0",
+    "url": "/me-wedding-inv/static/css/main.28c413b5.chunk.css"
   },
   {
-    "revision": "2f6290179633ca340133",
-    "url": "/me-wedding-inv/static/js/2.c2216cd7.chunk.js"
+    "revision": "05f85c918395a6ce4907",
+    "url": "/me-wedding-inv/static/js/2.edffc292.chunk.js"
   },
   {
-    "revision": "226d4a3b9485ab4917ce",
-    "url": "/me-wedding-inv/static/js/main.e4ddaee3.chunk.js"
+    "revision": "1e698a7a8515864c87b0",
+    "url": "/me-wedding-inv/static/js/main.c2e3d4d1.chunk.js"
   },
   {
     "revision": "e0ac8198cdddd64748ef",
@@ -40,28 +40,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/me-wedding-inv/static/media/counter-1-1600x600.0848d9d0.jpg"
   },
   {
-    "revision": "82c8fbe284a653442e684c21bbe4336c",
-    "url": "/me-wedding-inv/static/media/logo-white.82c8fbe2.png"
+    "revision": "0693891df19dcd5289bad5d981055520",
+    "url": "/me-wedding-inv/static/media/engagement.0693891d.jpg"
   },
   {
-    "revision": "63c9121422bb2aeb0a785bac373f9f2b",
-    "url": "/me-wedding-inv/static/media/mana2.63c91214.jpg"
+    "revision": "902c49d9ffdce41fc64e379987763738",
+    "url": "/me-wedding-inv/static/media/eri.902c49d9.JPG"
+  },
+  {
+    "revision": "7b67f859da1190b6df8cd2dd658f576a",
+    "url": "/me-wedding-inv/static/media/firstDate.7b67f859.JPG"
+  },
+  {
+    "revision": "5cd6f758d6fd148995e40b60283402f0",
+    "url": "/me-wedding-inv/static/media/firstParty.5cd6f758.JPG"
+  },
+  {
+    "revision": "c0213f3b1ee92b33668735364530873c",
+    "url": "/me-wedding-inv/static/media/firstTrip.c0213f3b.jpg"
+  },
+  {
+    "revision": "82c8fbe284a653442e684c21bbe4336c",
+    "url": "/me-wedding-inv/static/media/logo-white.82c8fbe2.png"
   },
   {
     "revision": "ff5e1123b4ec5c35c81ed20ed7fb81f6",
     "url": "/me-wedding-inv/static/media/manoj1.ff5e1123.png"
   },
   {
-    "revision": "28e168db532d1ad295f4ed26b6eb4f51",
-    "url": "/me-wedding-inv/static/media/met3.28e168db.jpg"
-  },
-  {
-    "revision": "0c07687b15a0a7867c665a2826dd9b86",
-    "url": "/me-wedding-inv/static/media/met4.0c07687b.jpg"
-  },
-  {
-    "revision": "20143035b776dcefdba8e40456a55df1",
-    "url": "/me-wedding-inv/static/media/met5.20143035.jpg"
+    "revision": "a8688fe77a1bf702ee635170bb5be595",
+    "url": "/me-wedding-inv/static/media/party.a8688fe7.jpeg"
   },
   {
     "revision": "bb5c4c8f4b999520f41db44349e2d28f",
