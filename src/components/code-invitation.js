@@ -37,7 +37,7 @@ class Wedding < ActiveEngagement::Base
   ____|___|_|___|______/_______\\|||___September 24th 2022___
         Ceremony Commences at 13:00 pm
           Followed by a
-        Wedding & Evening Reception
+        Wedding & Reception
     INVITE
   end
 
@@ -49,11 +49,13 @@ class Wedding < ActiveEngagement::Base
         DateTime.new(2022, 09, 24, 13, 00, 00), TEMPLO_CALA_CALA_LOCATION)
       reception(
         DateTime.new(2022, 09, 24, 15, 00, 00), SALON_LA_TERRAZA_LOCATION)
-      civil_wedding(
-        DateTime.new(2022, 09, 24, 16, 30, 00))
       dinner(
-        DateTime.new(2022, 09, 24, 19, 00, 00))
+        DateTime.new(2022, 09, 24, 18, 30, 00))
+
       party!
+
+      eat_cake(
+        DateTime.new(2022, 09, 24, 22, 30, 00))
 
       Ceremony.end
     rescue AnyLawfulImpediment
@@ -69,19 +71,15 @@ class Wedding < ActiveEngagement::Base
 
     return unless erika.say_yes?
 
+    Ceremony.sign_register(erika, mirko)
+    erika.surname += "de Terrazas" if erika.happy?
+
     erika.kissed_by(mirko)
   end
 
   def reception(date, locaiton)
     Logger.log('Receiving friends and family ', date)
     Ceremony.move_to(location)
-  end
-
-  def civil_wedding(date)
-    Logger.log('Starting civil wedding at ', date)
-
-    Ceremony.sign_register(erika, mirko)
-    erika.surname += "de Terrazas" if erika.happy?
   end
 
   def party!

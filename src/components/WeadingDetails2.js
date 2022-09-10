@@ -14,8 +14,7 @@ const WeadingDetails = () => {
                         <div className="heading">
                             <span>Un poco de...</span>
                             <h2 className="title">Nuestra Historia</h2>
-                            <p>To love a person is to see all of their magic, and to remind them of it when they have forgotten.</p>
-                            <p>Ah, life grows lovely where you are.</p>
+                            <p>Everyday life is like programming, I guess. If you love something you can put beauty into it.</p>
                             <span className="heading-bottom"><i className="icon icon-star"></i></span>
                         </div>
                     </div>
@@ -26,7 +25,7 @@ const WeadingDetails = () => {
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
                                         <h3 className="timeline-title">Nos Conocimos</h3>
-                                        <span className="date">Enero 2018</span>
+                                        <span className="date">Enero 2017</span>
                                     </div>
                                     <div className="timeline-body">
                                         <p>No tenemos una foto, pero lo recordamos muy bien. Nos conocimos en el trabajo, durante un almuerzo que ninguno tenia planeado</p>
@@ -38,7 +37,7 @@ const WeadingDetails = () => {
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
                                         <h3 className="timeline-title">Primera Fiesta</h3>
-                                        <span className="date"><i className="icon icon-date"></i>18 de Febrero de 2018</span>
+                                        <span className="date"><i className="icon icon-date"></i>18 de Febrero de 2017</span>
                                     </div>
                                     <div className="timeline-body" style={{ textAlign: 'left' }}>
                                         <p>Mirko: Y.. Que musica te gusta?</p>
@@ -52,7 +51,7 @@ const WeadingDetails = () => {
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
                                         <h3 className="timeline-title">En una relacion</h3>
-                                        <span className="date">19 de Febrero de 2018</span>
+                                        <span className="date">19 de Febrero de 2017</span>
                                     </div>
                                     <div className="timeline-body">
                                         <p>Despues de tomar un cafe, decidimos que queriamos estar juntos.</p>
@@ -85,7 +84,7 @@ const WeadingDetails = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-md-12 col-md-offset-0">
+                    <div className="col-md-12 col-md-offset-0" style={{ fontSize: "30px" }}>
                         Y vamos por mas...
                     </div>
                 </div>

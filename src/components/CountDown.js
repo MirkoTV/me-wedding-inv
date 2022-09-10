@@ -14,7 +14,7 @@ const CountDown = () => {
             const now = new Date().getTime();
 
             // Find the distance between now and the count down date
-            const distance = countDownDate - now;
+            const distance = countDownDate < now ? 0 : countDownDate - now;
 
             // Time calculations for days, hours, minutes and seconds
             const day = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -62,7 +62,7 @@ const CountDown = () => {
                     <div className="col-sm-8">
 
                         <div className="remaining-time">
-                            {isExpired
+                            {false // Replace this with isExpired when we have a better placeholder that Yay...
                                 ? <div>Yay....</div>
                                 :
                                 <div id="clock">
