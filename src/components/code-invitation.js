@@ -82,12 +82,20 @@ class Wedding < ActiveEngagement::Base
     Ceremony.move_to(location)
   end
 
+  def dinnet(date)
+    Logger.log('Dinner time!', date)
+  end
+
   def party!
     begin
       throw :bouquet
     rescue
       Ceremony.next!
     end
+  end
+
+  def eat_cake(date)
+    Logger.log('Time to eat the cake!', date)
   end
 end
   `
