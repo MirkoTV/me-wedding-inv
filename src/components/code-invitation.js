@@ -82,7 +82,7 @@ class Wedding < ActiveEngagement::Base
     Ceremony.move_to(location)
   end
 
-  def dinnet(date)
+  def dinner(date)
     Logger.log('Dinner time!', date)
   end
 
