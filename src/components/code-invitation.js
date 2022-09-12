@@ -21,7 +21,7 @@ class Wedding < ActiveEngagement::Base
   def invite
     puts <<-INVITE
         Mr & Mrs Terrazas and Mr & Mrs Vargas invite you to
-        the Wedding of their son and dauther
+        the Wedding of their son and daughter
             Mirko Jhovanny Terrazas Vargas
                   and
             Erika Rosaed Vargas Navarro
@@ -48,7 +48,7 @@ class Wedding < ActiveEngagement::Base
       religious_wedding(
         DateTime.new(2022, 09, 24, 13, 00, 00), TEMPLO_CALA_CALA_LOCATION)
       reception(
-        DateTime.new(2022, 09, 24, 15, 00, 00), SALON_LA_TERRAZA_LOCATION)
+        DateTime.new(2022, 09, 24, 15, 30, 00), SALON_LA_TERRAZA_LOCATION)
       dinner(
         DateTime.new(2022, 09, 24, 18, 30, 00))
 
