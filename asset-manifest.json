@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/me-wedding-inv/static/css/main.fae80ff6.chunk.css",
-    "main.js": "/me-wedding-inv/static/js/main.91ebb6ae.chunk.js",
-    "main.js.map": "/me-wedding-inv/static/js/main.91ebb6ae.chunk.js.map",
-    "runtime-main.js": "/me-wedding-inv/static/js/runtime-main.8c737a01.js",
-    "runtime-main.js.map": "/me-wedding-inv/static/js/runtime-main.8c737a01.js.map",
-    "static/css/2.e08fd41c.chunk.css": "/me-wedding-inv/static/css/2.e08fd41c.chunk.css",
-    "static/js/2.41db1b2d.chunk.js": "/me-wedding-inv/static/js/2.41db1b2d.chunk.js",
-    "static/js/2.41db1b2d.chunk.js.map": "/me-wedding-inv/static/js/2.41db1b2d.chunk.js.map",
+    "main.css": "/me-wedding-inv/static/css/main.4ad55f01.chunk.css",
+    "main.js": "/me-wedding-inv/static/js/main.c3af6683.chunk.js",
+    "main.js.map": "/me-wedding-inv/static/js/main.c3af6683.chunk.js.map",
+    "runtime~main.js": "/me-wedding-inv/static/js/runtime~main.bc653868.js",
+    "runtime~main.js.map": "/me-wedding-inv/static/js/runtime~main.bc653868.js.map",
+    "static/css/2.4ed7ca72.chunk.css": "/me-wedding-inv/static/css/2.4ed7ca72.chunk.css",
+    "static/js/2.edffc292.chunk.js": "/me-wedding-inv/static/js/2.edffc292.chunk.js",
+    "static/js/2.edffc292.chunk.js.map": "/me-wedding-inv/static/js/2.edffc292.chunk.js.map",
     "index.html": "/me-wedding-inv/index.html",
-    "precache-manifest.aeb445ec8c877a280c5800078d6923f1.js": "/me-wedding-inv/precache-manifest.aeb445ec8c877a280c5800078d6923f1.js",
+    "precache-manifest.36ea05e9f3e6976c90b58364d0e73b78.js": "/me-wedding-inv/precache-manifest.36ea05e9f3e6976c90b58364d0e73b78.js",
     "service-worker.js": "/me-wedding-inv/service-worker.js",
-    "static/css/2.e08fd41c.chunk.css.map": "/me-wedding-inv/static/css/2.e08fd41c.chunk.css.map",
-    "static/css/main.fae80ff6.chunk.css.map": "/me-wedding-inv/static/css/main.fae80ff6.chunk.css.map",
-    "static/js/2.41db1b2d.chunk.js.LICENSE.txt": "/me-wedding-inv/static/js/2.41db1b2d.chunk.js.LICENSE.txt",
+    "static/css/2.4ed7ca72.chunk.css.map": "/me-wedding-inv/static/css/2.4ed7ca72.chunk.css.map",
+    "static/css/main.4ad55f01.chunk.css.map": "/me-wedding-inv/static/css/main.4ad55f01.chunk.css.map",
     "static/media/App.css": "/me-wedding-inv/static/media/slider-1-1600x900.bb5c4c8f.jpg",
     "static/media/ap.png": "/me-wedding-inv/static/media/ap.8e648955.png",
     "static/media/brideback.jpg": "/me-wedding-inv/static/media/brideback.155af7fd.jpg",
@@ -27,13 +26,6 @@
     "static/media/party.jpeg": "/me-wedding-inv/static/media/party.a8688fe7.jpeg",
     "static/media/w.png": "/me-wedding-inv/static/media/w.32d27b8e.png",
     "static/media/w22.png": "/me-wedding-inv/static/media/w22.f6790001.png",
-    "static/media/font-icon.css": "/me-wedding-inv/static/media/webzed-font-1.d5939ecf.eot"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.8c737a01.js",
-    "static/css/2.e08fd41c.chunk.css",
-    "static/js/2.41db1b2d.chunk.js",
-    "static/css/main.fae80ff6.chunk.css",
-    "static/js/main.91ebb6ae.chunk.js"
-  ]
+    "static/media/font-icon.css": "/me-wedding-inv/static/media/webzed-font-1.e65681d7.svg"
+  }
 }
